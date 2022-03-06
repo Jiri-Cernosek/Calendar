@@ -1,4 +1,4 @@
-# Calendar
+# Calendar Django 4.0 project
 # Planner
 Můj vlastní projekt. Původní myšlenkou je přehlednější plánování podřízených mechaniků, především vizualizace adres jejich práce. 
 Vizualizace pracovních cest má být na mapovém podkladě. 
