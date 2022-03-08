@@ -15,7 +15,7 @@ class PostalCode(models.Model):
     city = models.CharField(max_length = 20)
     district = models.CharField(max_length = 20)
     region = models.CharField(max_length = 20)
-    code = models.IntegerField()
+    code = models.IntegerField(unique = True)
 
     def __str__(self):
         return "City: {0} | Postal code: {1}".format(self.city, self.code)
